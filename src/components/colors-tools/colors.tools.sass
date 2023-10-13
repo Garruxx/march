@@ -1,0 +1,31 @@
+.colorsTools
+    position: absolute
+    transition: 0.3s right
+    display: flex
+    flex-direction: column
+    justify-content: space-evenly
+    align-items: center
+    height: 180px
+    width: 40px
+    background: #fff
+    box-shadow: 1px 1px 8px 2px #00000044
+    border-radius: 11px 0 0 11px
+    top: calc( 50% - 100px )
+    right: 0
+    &.hide
+        transform: translateX(60px)
+
+    .colorsTools__item
+        display: flex
+        justify-content: center
+        align-items: center
+        width: 22px
+        height: 30px
+        cursor: pointer
+
+        .recentColor
+            width: 22px
+            height: 22px
+            border-radius: 5px
+            background: #222
+            border: 1px solid #222
